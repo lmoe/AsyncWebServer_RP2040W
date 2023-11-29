@@ -1,3 +1,9 @@
+## Forked from Khoi Hoangs great RP2040 port that is now archived (https://github.com/khoih-prog/AsyncWebServer_RP2040W).
+I've noticed that the lower level `AsyncWebServerRequest::_removeNotInterestingHeaders()` function crashes the RP2040 if a `serveStatic` route is called.
+
+I don't really care why, so I have just commented it out. You most likely don't want to use this fork in your personal project as I will not maintain it.
+
+
 # AsyncWebServer_RP2040W
 
 [![arduino-library-badge](https://www.ardu-badge.com/badge/AsyncWebServer_RP2040W.svg?)](https://www.ardu-badge.com/AsyncWebServer_RP2040W)

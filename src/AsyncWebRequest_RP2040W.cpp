@@ -941,7 +941,7 @@ void AsyncWebServerRequest::_parseLine()
       _server->_rewriteRequest(this);
       _server->_attachHandler(this);
       
-      _removeNotInterestingHeaders();    // KH, Crashing WS if used
+      // _removeNotInterestingHeaders();    // KH, Crashing WS if used
 
       if (_expectingContinue)
       {
